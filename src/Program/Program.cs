@@ -10,7 +10,7 @@ public static class Program
     /// </summary>
     public static void Main()
     {
-        string testDate = "10/11/1997";
-        Console.WriteLine($"{testDate} se convierte a {DateFormatter.ChangeFormat(testDate)}");
+        string testDate = "15/11/2003";
+        Console.WriteLine($"{testDate} se convierte en {DateFormatter.ChangeFormat(testDate)}");
     }
 }
